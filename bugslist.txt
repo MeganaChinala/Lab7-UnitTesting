@@ -1,0 +1,6 @@
+1) isEmpty() always true (even when not)
+2) removeFront() not decrementing accurately
+3) removeFront() - not deleting element - causing segmentation fault due to incorrect update of front pointer to front of list
+4) removeBack()  - not deleting element - resulting in segmentation fault when accessing last node, because not setting second to last node's pointer to nullpointer
+5) removeBack() not decrementing size
+
